@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UJAM Metadata Test</title>
+</head>
+<body>
+
+    <div id="welcome-container">
+        <h1>Audio Metadata Survey</h1>
+        <p>Thanks for participating. You will be shown a series of audio previews. After you listen to each preview, you will be asked to vote on different descriptions for the sound.</p>
+        <button id="start-btn">Continue</button>
+    </div>
+
+    <div id="test-container" style="display:none;">
+        <h1 id="preset-title">Preset Test</h1>
+        <audio controls id="audio-player">
+            <source id="audio-source" src="" type="audio/mpeg">
+            Your browser does not support this audio player.
+        </audio>
+        <hr>
+        <div id="questions-container">
+            </div>
+        <button id="next-btn">Next Preset</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
