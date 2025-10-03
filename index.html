@@ -3,6 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>UJAM Metadata Test</title>
+    <style>
+        .question {
+            margin-bottom: 30px;
+        }
+        .question p {
+            margin-bottom: 5px;
+        }
+        .voting-scale {
+            margin-top: 5px;
+        }
+        #next-btn, #back-btn {
+            margin-top: 40px;
+        }
+    </style>
 </head>
 <body>
 
@@ -19,9 +33,17 @@
             Your browser does not support this audio player.
         </audio>
         <hr>
+        <p><strong>Please vote on how well you agree with the following descriptions of this sound:</strong></p>
         <div id="questions-container">
             </div>
-        <button id="next-btn">Next Preset</button>
+        <button id="back-btn">Back</button>
+        <button id="next-btn">Next</button>
+    </div>
+
+    <div id="complete-container" style="display:none;">
+        <h1>Survey Complete!</h1>
+        <p>Thank you for your participation.</p>
+        <button id="download-btn">Download Results</button>
     </div>
 
     <script src="script.js"></script>
