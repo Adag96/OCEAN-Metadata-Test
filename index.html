@@ -16,6 +16,13 @@
         #next-btn, #back-btn {
             margin-top: 40px;
         }
+        #questions-container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
     </style>
 </head>
 <body>
@@ -23,6 +30,11 @@
     <div id="welcome-container">
         <h1>Audio Metadata Survey</h1>
         <p>Thanks for participating. You will be shown a series of audio previews. After you listen to each preview, you will be asked to vote on different descriptions for the sound.</p>
+        <div id="resume-section" style="display:none;">
+            <p><strong>We found your previous progress!</strong></p>
+            <button id="resume-btn">Resume Survey</button>
+            <button id="start-fresh-btn">Start Fresh</button>
+        </div>
         <button id="start-btn">Continue</button>
     </div>
 
@@ -33,9 +45,11 @@
             Your browser does not support this audio player.
         </audio>
         <hr>
-        <p><strong>Please vote on how well you agree with the following descriptions of this sound:</strong></p>
+        <p id="category-header"></p>
+        <p id="category-question"></p>
         <div id="questions-container">
             </div>
+        <p style="font-size: 0.9em; font-style: italic; margin-top: 20px;"><em>Please evaluate each item independently. If you do not agree with any of the items shown, this is still valuable information for us.</em></p>
         <button id="back-btn">Back</button>
         <button id="next-btn">Next</button>
     </div>
