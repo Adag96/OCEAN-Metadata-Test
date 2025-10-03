@@ -537,11 +537,63 @@ function previousCategory() {
             // Return to welcome screen
             showWelcomeScreen();
         } else {
+            // Find the last valid category in the previous preset
             currentCategoryIndex = categories.length - 1;
-            loadPreset(currentPresetIndex);
+            findPreviousValidCategory();
         }
     } else {
-        loadCategory();
+        // Check if current category has valid tags, if not go back further
+        const actualPresetIndex = presetOrder[currentPresetIndex];
+        const preset = presets[actualPresetIndex];
+        const category = categories[currentCategoryIndex];
+        const tags = preset.cyaniteTags[category.key];
+        const validTags = tags.filter(tag => tag !== "N/A" && tag !== "");
+
+        if (validTags.length === 0) {
+            // Skip this category, go back further
+            previousCategory();
+        } else {
+            loadCategory();
+        }
+    }
+}
+
+function findPreviousValidCategory() {
+    // Helper function to find the last valid category when going to previous preset
+    const actualPresetIndex = presetOrder[currentPresetIndex];
+    const preset = presets[actualPresetIndex];
+
+    // Search backwards from currentCategoryIndex to find a valid category
+    while (currentCategoryIndex >= 0) {
+        const category = categories[currentCategoryIndex];
+        const tags = preset.cyaniteTags[category.key];
+        const validTags = tags.filter(tag => tag !== "N/A" && tag !== "");
+
+        if (validTags.length > 0) {
+            // Found a valid category, load it
+            const title = document.getElementById('preset-title');
+            const audioPlayer = document.getElementById('audio-player');
+            const audioSource = document.getElementById('audio-source');
+
+            title.textContent = `Preset ${currentPresetIndex + 1} of ${presets.length}`;
+            audioSource.src = `audio/${preset.fileName}`;
+            audioPlayer.load();
+
+            loadCategory();
+            return;
+        }
+        currentCategoryIndex--;
+    }
+
+    // If we get here, no valid categories found (shouldn't happen), go back another preset
+    if (currentCategoryIndex < 0) {
+        currentPresetIndex--;
+        if (currentPresetIndex < 0) {
+            showWelcomeScreen();
+        } else {
+            currentCategoryIndex = categories.length - 1;
+            findPreviousValidCategory();
+        }
     }
 }
 
