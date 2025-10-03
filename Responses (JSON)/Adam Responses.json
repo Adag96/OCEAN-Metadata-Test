@@ -1,0 +1,387 @@
+{
+  "timestamp": "2025-10-03T16:14:49.262Z",
+  "responses": [
+    {
+      "presetIndex": 10,
+      "presetName": "VB-ROYAL_Beach Toys.mp3",
+      "displayOrder": 1,
+      "votes": {
+        "advancedInstrument-Bass-Guitar": 5,
+        "advancedInstrument-Percussion": 1,
+        "advancedInstrument-Synthesizer": 1,
+        "advancedInstrument-Electric-Piano": 1,
+        "advancedInstrument-Electronic-Drums": 1,
+        "genre-Pop": 4,
+        "genre-Rock": 4,
+        "genre-Ambient": 3,
+        "subgenre-Indie/Alternative": 3,
+        "advancedMood-Confident": 4,
+        "advancedMood-Relaxed": 3,
+        "character-Cool": 4
+      }
+    },
+    {
+      "presetIndex": 0,
+      "presetName": "BM3-CHROMED>FACTORY>Grumble Face.mp3",
+      "displayOrder": 2,
+      "votes": {
+        "advancedInstrument-Bass-Guitar": 1,
+        "advancedInstrument-Percussion": 4,
+        "advancedInstrument-Synthesizer": 2,
+        "advancedInstrument-Electronic-Drums": 5,
+        "advancedInstrument-Drum-Kit": 5,
+        "genre-Electronic-Dance": 5,
+        "subgenre-Abstract-IDM-Leftfield": 4,
+        "advancedMood-Energetic": 4,
+        "advancedMood-Weird": 5,
+        "advancedMood-Determined": 3,
+        "character-Powerful": 4,
+        "character-Unpolished": 5
+      }
+    },
+    {
+      "presetIndex": 17,
+      "presetName": "VG-IRON2_Sixtyone Alien Ships.mp3",
+      "displayOrder": 3,
+      "votes": {
+        "advancedInstrument-Drum-Kit": 1,
+        "advancedInstrument-Synthesizer": 5,
+        "genre-Electronic-Dance": 4,
+        "genre-Ambient": 5,
+        "subgenre-Abstract-IDM-Leftfield": 4,
+        "subgenre-Techno": 4,
+        "subgenre-Minimal": 4,
+        "advancedMood-Dark": 5,
+        "advancedMood-Violent": 4,
+        "advancedMood-Disturbing": 5,
+        "character-Unpolished": 5
+      }
+    },
+    {
+      "presetIndex": 9,
+      "presetName": "USYNTH-GLAM_Add Some Space.mp3",
+      "displayOrder": 4,
+      "votes": {
+        "advancedInstrument-Synthesizer": 5,
+        "genre-Ambient": 5,
+        "advancedMood-Mysterious": 5,
+        "advancedMood-Weird": 3,
+        "advancedMood-Cold": 2,
+        "character-Ethereal": 5,
+        "character-Sparse": 4
+      }
+    },
+    {
+      "presetIndex": 11,
+      "presetName": "VB-SLAP_Ambient Something.mp3",
+      "displayOrder": 5,
+      "votes": {
+        "advancedInstrument-Bass-Guitar": 3,
+        "advancedInstrument-Synthesizer": 4,
+        "advancedInstrument-Drum-Kit": 1,
+        "genre-Ambient": 5,
+        "advancedMood-Mysterious": 4,
+        "advancedMood-Spooky": 3,
+        "advancedMood-Weird": 4,
+        "character-Mysterious": 4
+      }
+    },
+    {
+      "presetIndex": 15,
+      "presetName": "VG-AMBER2_You Want This.mp3",
+      "displayOrder": 6,
+      "votes": {
+        "advancedInstrument-Acoustic-Guitar": 5,
+        "genre-Pop": 5,
+        "advancedMood-Bright": 5,
+        "advancedMood-Warm": 5,
+        "advancedMood-Reflective": 4,
+        "character-Warm": 5
+      }
+    },
+    {
+      "presetIndex": 2,
+      "presetName": "BM3-GLORY>FACTORY>Walk It.mp3",
+      "displayOrder": 7,
+      "votes": {
+        "advancedInstrument-Bass-Guitar": 1,
+        "advancedInstrument-Synthesizer": 1,
+        "advancedInstrument-Electronic-Drums": 5,
+        "advancedInstrument-Drum-Kit": 5,
+        "genre-Rap/Hip-Hop": 5,
+        "subgenre-Trap": 5,
+        "advancedMood-Confident": 4,
+        "advancedMood-Cool": 4,
+        "advancedMood-Serious": 4,
+        "character-Cool": 4
+      }
+    },
+    {
+      "presetIndex": 14,
+      "presetName": "VG-AMBER2_Accordion Jive.mp3",
+      "displayOrder": 8,
+      "votes": {
+        "advancedInstrument-Accordion": 3,
+        "advancedInstrument-Acoustic-Guitar": 5,
+        "advancedInstrument-Bass-Guitar": 2,
+        "advancedInstrument-Strings": 3,
+        "advancedInstrument-Drum-Kit": 1,
+        "genre-Ambient": 3,
+        "genre-Pop": 4,
+        "advancedMood-Thoughtful": 4,
+        "advancedMood-Reflective": 4,
+        "advancedMood-Serious": 2,
+        "character-Warm": 4
+      }
+    },
+    {
+      "presetIndex": 12,
+      "presetName": "VB-SLAP_Bite Back.mp3",
+      "displayOrder": 9,
+      "votes": {
+        "advancedInstrument-Bass-Guitar": 5,
+        "advancedInstrument-Electric-Guitar": 4,
+        "advancedInstrument-Percussion": 1,
+        "advancedInstrument-Synthesizer": 4,
+        "advancedInstrument-Bass": 5,
+        "genre-Electronic-Dance": 4,
+        "subgenre-Minimal": 3,
+        "subgenre-Techno": 4,
+        "subgenre-Electro": 5,
+        "advancedMood-Resolute": 4,
+        "advancedMood-Determined": 4,
+        "advancedMood-Confident": 4,
+        "character-Bold": 4,
+        "character-Unpolished": 3
+      }
+    },
+    {
+      "presetIndex": 5,
+      "presetName": "SE-STRIIIINGS_ARP Criss Cross.mp3",
+      "displayOrder": 10,
+      "votes": {
+        "advancedInstrument-Bass-Guitar": 1,
+        "advancedInstrument-Strings": 5,
+        "advancedInstrument-Woodwinds": 2,
+        "advancedInstrument-Cello": 3,
+        "advancedInstrument-Double-Bass": 3,
+        "genre-Ambient": 2,
+        "advancedMood-Noble": 5,
+        "advancedMood-Graceful": 4,
+        "advancedMood-Dignified": 5,
+        "character-Sophisticated": 5
+      }
+    },
+    {
+      "presetIndex": 3,
+      "presetName": "SE-BRAAASS_EDM Add Some DRUMS.mp3",
+      "displayOrder": 11,
+      "votes": {
+        "advancedInstrument-Percussion": 1,
+        "advancedInstrument-Synthesizer": 5,
+        "advancedInstrument-Drum-Kit": 1,
+        "advancedInstrument-Bass": 2,
+        "genre-Electronic-Dance": 5,
+        "subgenre-Electro": 5,
+        "advancedMood-Serious": 3,
+        "character-Unpolished": 3
+      }
+    },
+    {
+      "presetIndex": 19,
+      "presetName": "VP-SCORE_61 bpm - Fate.mp3",
+      "displayOrder": 12,
+      "votes": {
+        "advancedInstrument-Piano": 5,
+        "genre-Ambient": 1,
+        "advancedMood-Sad": 5,
+        "advancedMood-Melancholic": 5,
+        "advancedMood-Poignant": 5,
+        "character-Sophisticated": 4,
+        "character-Warm": 4
+      }
+    },
+    {
+      "presetIndex": 20,
+      "presetName": "VP-VIBE_72 bpm - Cuddle Me Now.mp3",
+      "displayOrder": 13,
+      "votes": {
+        "advancedInstrument-Bass-Guitar": 1,
+        "advancedInstrument-Piano": 1,
+        "advancedInstrument-Synthesizer": 2,
+        "advancedInstrument-Vibraphone": 3,
+        "advancedInstrument-Electric-Piano": 5,
+        "genre-Jazz": 5,
+        "subgenre-Smooth-Jazz": 5,
+        "advancedMood-Dreamy": 4,
+        "advancedMood-Quiet": 4,
+        "advancedMood-Relaxed": 4,
+        "character-Retro": 3,
+        "character-Warm": 5,
+        "character-Sophisticated": 4
+      }
+    },
+    {
+      "presetIndex": 4,
+      "presetName": "SE-BRAAASS_EDM Brass Dancehall.mp3",
+      "displayOrder": 14,
+      "votes": {
+        "advancedInstrument-Synthesizer": 4,
+        "advancedInstrument-Bass": 1,
+        "genre-Electronic-Dance": 4,
+        "genre-Ambient": 3,
+        "subgenre-House": 4,
+        "advancedMood-Mysterious": 2,
+        "advancedMood-Nervous": 1,
+        "advancedMood-Determined": 4,
+        "character-Ethereal": 4
+      }
+    },
+    {
+      "presetIndex": 22,
+      "presetName": "VP-VOGUE_Reverse Hookliner.mp3",
+      "displayOrder": 15,
+      "votes": {
+        "advancedInstrument-Piano": 5,
+        "advancedInstrument-Synthesizer": 3,
+        "genre-Ambient": 5,
+        "advancedMood-Lonely": 4,
+        "advancedMood-Bittersweet": 4,
+        "advancedMood-Thoughtful": 4,
+        "character-Ethereal": 5,
+        "character-Sparse": 5,
+        "character-Mysterious": 2
+      }
+    },
+    {
+      "presetIndex": 7,
+      "presetName": "SE-STRIIIINGS_HYB Are you talking to me.mp3",
+      "displayOrder": 16,
+      "votes": {
+        "advancedInstrument-Strings": 3,
+        "advancedInstrument-Synthesizer": 4,
+        "genre-Singer/Songwriters": 1,
+        "advancedMood-Dark": 4,
+        "advancedMood-Ominous": 5,
+        "character-Mysterious": 2,
+        "character-Unpolished": 5,
+        "character-Epic": 4
+      }
+    },
+    {
+      "presetIndex": 13,
+      "presetName": "VD-SOLID_Very Close.mp3",
+      "displayOrder": 17,
+      "votes": {
+        "advancedInstrument-Drum-Kit": 5,
+        "advancedInstrument-African-Percussion": 1,
+        "advancedInstrument-Percussion": 5,
+        "genre-RnB": 4,
+        "genre-Electronic-Dance": 2,
+        "subgenre-Minimal": 2,
+        "advancedMood-Quirky": 2,
+        "advancedMood-Bright": 4,
+        "advancedMood-Playful": 4,
+        "character-Cool": 4
+      }
+    },
+    {
+      "presetIndex": 18,
+      "presetName": "VG-SPARKLE2_Bidobido.mp3",
+      "displayOrder": 18,
+      "votes": {
+        "advancedInstrument-Synthesizer": 5,
+        "genre-Ambient": 3,
+        "genre-Electronic-Dance": 5,
+        "advancedMood-Tense": 5,
+        "advancedMood-Mysterious": 4,
+        "advancedMood-Suspenseful": 5,
+        "character-Unpolished": 4,
+        "character-Mysterious": 4,
+        "character-Sparse": 3
+      }
+    },
+    {
+      "presetIndex": 1,
+      "presetName": "BM3-GLOOM>FACTORY>Urban Exploration.mp3",
+      "displayOrder": 19,
+      "votes": {
+        "advancedInstrument-Bass-Guitar": 1,
+        "advancedInstrument-Synthesizer": 2,
+        "advancedInstrument-Electronic-Drums": 5,
+        "advancedInstrument-Drum-Kit": 5,
+        "genre-Ambient": 3,
+        "genre-Electronic-Dance": 4,
+        "subgenre-Breakbeat/Drum&Bass": 4,
+        "advancedMood-Mysterious": 4,
+        "advancedMood-Weird": 5,
+        "character-Ethereal": 3,
+        "character-Mysterious": 4,
+        "character-Sparse": 3
+      }
+    },
+    {
+      "presetIndex": 16,
+      "presetName": "VG-IRON2_Little Brothers Amp.mp3",
+      "displayOrder": 20,
+      "votes": {
+        "advancedInstrument-Synthesizer": 3,
+        "advancedInstrument-Electric-Guitar": 5,
+        "genre-Ambient": 4,
+        "advancedMood-Dark": 5,
+        "advancedMood-Ominous": 5,
+        "advancedMood-Weird": 4,
+        "character-Unpolished": 5
+      }
+    },
+    {
+      "presetIndex": 21,
+      "presetName": "VP-VOGUE_Finisher Equals Fun.mp3",
+      "displayOrder": 21,
+      "votes": {
+        "advancedInstrument-Piano": 4,
+        "advancedInstrument-Synthesizer": 4,
+        "genre-Ambient": 5,
+        "advancedMood-Mysterious": 5,
+        "advancedMood-Cold": 4,
+        "advancedMood-Lonely": 4,
+        "character-Ethereal": 5,
+        "character-Sparse": 5,
+        "character-Mysterious": 5
+      }
+    },
+    {
+      "presetIndex": 6,
+      "presetName": "SE-STRIIIINGS_BRM Earthquake Braaam.mp3",
+      "displayOrder": 22,
+      "votes": {
+        "advancedInstrument-Synthesizer": 5,
+        "genre-Ambient": 4,
+        "advancedMood-Dark": 5,
+        "advancedMood-Eerie": 5,
+        "advancedMood-Tense": 5,
+        "character-Mysterious": 5,
+        "character-Ethereal": 4,
+        "character-Unpolished": 4
+      }
+    },
+    {
+      "presetIndex": 8,
+      "presetName": "SE-STRIIIINGS_HYB Crisp Pizz Riff.mp3",
+      "displayOrder": 23,
+      "votes": {
+        "advancedInstrument-Synthesizer": 4,
+        "advancedInstrument-Electronic-Drums": 1,
+        "advancedInstrument-Percussion": 1,
+        "genre-Ambient": 4,
+        "genre-Singer/Songwriters": 2,
+        "genre-Electronic-Dance": 4,
+        "advancedMood-Mysterious": 4,
+        "advancedMood-Serious": 3,
+        "advancedMood-Cool": 4,
+        "character-Cool": 3,
+        "character-Unpolished": 4
+      }
+    }
+  ]
+}
