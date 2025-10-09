@@ -601,10 +601,21 @@ function showWelcomeScreen() {
     const welcomeContainer = document.getElementById('welcome-container');
     const testContainer = document.getElementById('test-container');
 
+    // Save current state before returning to welcome
+    saveToLocalStorage();
+
     welcomeContainer.style.display = 'block';
     testContainer.style.display = 'none';
+
+    // Reset indices for when user clicks continue again
     currentPresetIndex = 0;
     currentCategoryIndex = 0;
+
+    // Clear the audio player to avoid showing stale preset info
+    const audioPlayer = document.getElementById('audio-player');
+    const audioSource = document.getElementById('audio-source');
+    audioSource.src = '';
+    audioPlayer.load();
 }
 
 // --- NEW: Main script execution ---
@@ -631,7 +642,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Add a click listener to the 'Continue' button (new survey)
     startBtn.addEventListener('click', function() {
-        startSurvey();
+        // Check if there's saved progress when clicking Continue
+        const hasSavedProgressNow = loadFromLocalStorage();
+        if (hasSavedProgressNow) {
+            // If there's saved progress, show resume options instead
+            resumeSection.style.display = 'block';
+            startBtn.style.display = 'none';
+        } else {
+            startSurvey();
+        }
     });
 
     // Add a click listener to the 'Resume' button
